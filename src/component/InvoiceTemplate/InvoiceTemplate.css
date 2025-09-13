@@ -1,0 +1,138 @@
+/* InvoiceTemplate.css */
+
+.inv-wrapper {
+  max-width: 480px;
+  margin: 20px auto;
+  padding: 12px;
+  font-family: Arial, sans-serif;
+}
+
+.inv-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 12px;
+}
+
+/* Header */
+.inv-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.brand-logo {
+  font-weight: bold;
+  color: #4F46E5;
+}
+
+.brand-sub {
+  font-size: 0.8rem;
+  color: #666;
+}
+
+.inv-meta {
+  font-size: 0.85rem;
+  text-align: right;
+}
+
+/* Addresses */
+.inv-addresses {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.bill-to,
+.from {
+  flex: 1 1 45%;
+}
+
+.small-title {
+  font-size: 0.75rem;
+  color: #777;
+  margin-bottom: 4px;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.muted {
+  color: #666;
+  font-size: 0.85rem;
+}
+
+/* Table */
+.items-table {
+  width: 100%;
+  margin-top: 12px;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.items-table th,
+.items-table td {
+  border-bottom: 1px solid #eee;
+  padding: 6px;
+}
+
+.items-table th {
+  text-align: left;
+  font-size: 0.8rem;
+  color: #555;
+}
+
+/* Summary */
+.inv-summary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.summary {
+  flex: 1 1 40%;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 0;
+}
+
+.summary-row.grand {
+  font-weight: bold;
+  border-top: 1px solid #ddd;
+  padding-top: 8px;
+}
+
+/* Footer */
+.inv-footer {
+  margin-top: 12px;
+  font-size: 0.8rem;
+  color: #666;
+}
+
+/* Button */
+.inv-actions {
+  margin-top: 12px;
+  text-align: center;
+}
+
+.btn {
+  background: #4F46E5;
+  color: #fff;
+  border: none;
+  padding: 10px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.btn:hover {
+  opacity: 0.95;
+}
